@@ -62,14 +62,14 @@ userQueue.process(async (job, done) => {
   }
   console.log(`Welcome ${user.email}!`);
   try {
-    const mailSubject = 'ALX-Files_Manager project by Ernest Shongwe';
+    const mailSubject = 'ALX-Files_Manager project by DeeGemini';
     const mailContent = [
       '<div>',
       '<h3>Hello {{user.name}},</h3>',
-      'Welcome to <a href="https://github.com/bshongwe/alx-files_manager">',
+      'Welcome to <a href="https://github.com/DeeGemini/alx-files_manager">',
       'ALX-Files_Manager</a>, ',
       'a simple file management API built with Node.js by ',
-      '<a href="https://github.com/bshongwe">Ernest Shongwe</a>. ',
+      '<a href="https://github.com/DeeGemini">Nontuthuzelo Ngwenya</a>. ',
       'Happy codng!',
       '</div>',
     ].join('');
